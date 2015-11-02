@@ -1,7 +1,9 @@
 <h1>BMI計算機</h1>
 
 <%= form_tag "/resoult", method: :post do %>
+<form action="/resoult", method="post">
 	<input name="body_height" />
 	<input name="body_weight" />
 	<input type="submit" />	
+</form>
 <% end %>
