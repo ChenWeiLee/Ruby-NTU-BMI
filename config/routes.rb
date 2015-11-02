@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
 
 	get "/", to:"bmi#index"
+	post "/resoult", to:"bmi#resoult"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
